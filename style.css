@@ -1,10 +1,25 @@
+:root {
+  --ch-darkblue: #0c77b0;
+  --ch-darkgray: #57585a;
+  --ch-darkgreen: #08821c;
+  --ch-darkorange: #c45201;
+  --ch-darkviolet: #351b70;
+  --ch-darkyellow: #dca108;
+  --ch-gray: #797a7e;
+  --ch-green: #0db24c;
+  --ch-lightblue: #1ca9e1;
+  --ch-orange: #f48221;
+  --ch-violet: #572f90;
+  --ch-yellow: #fed30a;
+}
+
 * {
   font-family: 'DS-Digital', 'Roboto', sans-serif;
   font-size: 28px;
 }
 
 body {
-  background-color: lightgray;
+  background-color: #000;
 }
 
 .container {
@@ -35,15 +50,16 @@ body {
   align-items: stretch;
   justify-items: stretch;
   padding: 5px;
-  border: 1px solid black;
+  border: 1px solid #FFF;
   background-color: #000;
+  border-radius: 6px;
+  box-shadow: 1px 1px #FFF, 2px 2px #FFF, 3px 3px #FFF, 4px 4px #FFF;
 }
 
 #formula {
   min-height: 30px;
   font-size: 28px;
   grid-area: formula;
-  border: 1px solid black;
   text-align: end;
   color: yellow;
   padding: 0px;
@@ -52,17 +68,17 @@ body {
 
 #display {
   grid-area: display;
-  border: 1px solid black;
   text-align: end;
   color: white;
   font-size: 35px;
 }
 
 .calcBtn {
-  background-color: #4d4d4d;
+  background-color: #5d5d5d;
   color: #FFF;
   padding: 25px;;
   border: 1px solid black;
+  border-radius: 4px;
 }
 
 .calcBtn:active {
@@ -115,6 +131,9 @@ body {
   grid-area: zero;
 }
 
+.operator {
+  background-color: #4d4d4d; !important;
+}
 
 #divide {
   grid-area: divide;
@@ -138,6 +157,6 @@ body {
 }
 
 #equals {
-  background-color: #0a63a0;
+  background-color: #0c77b0;
   grid-area: equals;
 }

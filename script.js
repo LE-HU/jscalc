@@ -98,6 +98,7 @@ document.addEventListener("click", function (e) {
     display.innerText =
       eval(formula.innerText.replace(/[.\+\-*\/]+$/, ''));
     formula.innerText = formula.innerText + " = " + display.innerText;
+
   }
 
 });
