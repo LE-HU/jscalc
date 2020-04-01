@@ -40,8 +40,8 @@ document.addEventListener("click", function (e) {
 
   if (digitsArr.includes(e.target.id)) {
 
-    if (display.innerText == "0"
-          || display.innerText == "NUMBER TOO LARGE") {
+    if (display.innerText == "0" ||
+      display.innerText == "NUMBER TOO LARGE") {
       display.innerText = "";
     }
     // if (display.innerText.length > 16) {

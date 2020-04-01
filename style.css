@@ -1,3 +1,11 @@
+@import url(//db.onlinewebfonts.com/c/63f874d192fb3892d88d5e26f942b5e2?family=DS-Digital);
+
+@font-face {
+  font-family: "DS-Digital";
+  src: url("//db.onlinewebfonts.com/t/63f874d192fb3892d88d5e26f942b5e2.eot");
+  src: url("//db.onlinewebfonts.com/t/63f874d192fb3892d88d5e26f942b5e2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/63f874d192fb3892d88d5e26f942b5e2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/63f874d192fb3892d88d5e26f942b5e2.woff") format("woff"), url("//db.onlinewebfonts.com/t/63f874d192fb3892d88d5e26f942b5e2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/63f874d192fb3892d88d5e26f942b5e2.svg#DS-Digital") format("svg");
+}
+
 * {
   font-family: 'DS-Digital', 'Roboto', sans-serif;
   font-size: 28px;
@@ -61,7 +69,8 @@ body {
 .calcBtn {
   background-color: #5d5d5d;
   color: #FFF;
-  padding: 25px;;
+  padding: 25px;
+  ;
   border: 1px solid black;
   border-radius: 4px;
 }
@@ -117,7 +126,8 @@ body {
 }
 
 .operator {
-  background-color: #4d4d4d; !important;
+  background-color: #4d4d4d;
+   !important;
 }
 
 #divide {
