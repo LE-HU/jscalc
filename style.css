@@ -1,0 +1,117 @@
+body {
+  background-color: lightgray;
+}
+
+.container {
+  width: 20%;
+  margin: auto;
+/*   padding-top: 150px; */
+}
+
+#calculator {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid template rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "formula formula formula formula"
+    "display display display display"
+    "AC AC divide multiply"
+    "seven eight nine subtract"
+    "four five six add"
+    "one two three equals"
+    "zero zero decimal equals";
+  align-items: stretch;
+  justify-items: stretch;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: #000;
+}
+
+#formula {
+  min-height: 24px;
+  font-size: 20px;
+  grid-area: formula;
+  border: 1px solid black;
+  text-align: end;
+  color: yellow;
+  padding: 0px;
+  margin: 0px;
+}
+
+#display {
+  grid-area: display;
+  border: 1px solid black;
+  text-align: end;
+  color: white;
+}
+
+.calcBtn {
+  background-color: #4d4d4d;
+  color: #FFF;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.calcBtn:active {
+  background-color: #3d3d3d;
+}
+
+#clear {
+  background-color: #a43200;
+  grid-area: AC;
+}
+
+
+#nine {
+  grid-area: nine;
+}
+#eight {
+  grid-area: eight;
+}
+#seven {
+  grid-area: seven;
+}
+#six {
+  grid-area: six;
+}
+#five {
+  grid-area: five;
+}
+#four {
+  grid-area: four;
+}
+#three {
+  grid-area: three;
+}
+#two {
+  grid-area: two;
+}
+#one {
+  grid-area:one;
+}
+#zero {
+  grid-area: zero;
+}
+
+
+#divide {
+  grid-area: divide;
+}
+#multiply {
+  grid-area: multiply;
+}
+#subtract {
+  grid-area: subtract;
+}
+#add {
+  grid-area: add;
+}
+
+
+#decimal {
+  grid-area: decimal;
+}
+#equals {
+  background-color: #0a63a0;
+  grid-area: equals;
+}
