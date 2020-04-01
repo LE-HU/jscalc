@@ -1,17 +1,29 @@
+* {
+  font-family: 'DS-Digital', 'Roboto', sans-serif;
+  font-size: 28px;
+}
+
 body {
   background-color: lightgray;
 }
 
 .container {
-  width: 20%;
+  width: 18%;
   margin: auto;
-/*   padding-top: 150px; */
+  /*   padding-top: 150px; */
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #calculator {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid template rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 0.2fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
     "formula formula formula formula"
     "display display display display"
@@ -28,8 +40,8 @@ body {
 }
 
 #formula {
-  min-height: 24px;
-  font-size: 20px;
+  min-height: 30px;
+  font-size: 28px;
   grid-area: formula;
   border: 1px solid black;
   text-align: end;
@@ -43,12 +55,13 @@ body {
   border: 1px solid black;
   text-align: end;
   color: white;
+  font-size: 35px;
 }
 
 .calcBtn {
   background-color: #4d4d4d;
   color: #FFF;
-  padding: 20px;
+  padding: 25px;;
   border: 1px solid black;
 }
 
@@ -65,30 +78,39 @@ body {
 #nine {
   grid-area: nine;
 }
+
 #eight {
   grid-area: eight;
 }
+
 #seven {
   grid-area: seven;
 }
+
 #six {
   grid-area: six;
 }
+
 #five {
   grid-area: five;
 }
+
 #four {
   grid-area: four;
 }
+
 #three {
   grid-area: three;
 }
+
 #two {
   grid-area: two;
 }
+
 #one {
-  grid-area:one;
+  grid-area: one;
 }
+
 #zero {
   grid-area: zero;
 }
@@ -97,12 +119,15 @@ body {
 #divide {
   grid-area: divide;
 }
+
 #multiply {
   grid-area: multiply;
 }
+
 #subtract {
   grid-area: subtract;
 }
+
 #add {
   grid-area: add;
 }
@@ -111,6 +136,7 @@ body {
 #decimal {
   grid-area: decimal;
 }
+
 #equals {
   background-color: #0a63a0;
   grid-area: equals;
