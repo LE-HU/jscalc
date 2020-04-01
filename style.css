@@ -1,18 +1,3 @@
-:root {
-  --ch-darkblue: #0c77b0;
-  --ch-darkgray: #57585a;
-  --ch-darkgreen: #08821c;
-  --ch-darkorange: #c45201;
-  --ch-darkviolet: #351b70;
-  --ch-darkyellow: #dca108;
-  --ch-gray: #797a7e;
-  --ch-green: #0db24c;
-  --ch-lightblue: #1ca9e1;
-  --ch-orange: #f48221;
-  --ch-violet: #572f90;
-  --ch-yellow: #fed30a;
-}
-
 * {
   font-family: 'DS-Digital', 'Roboto', sans-serif;
   font-size: 28px;
